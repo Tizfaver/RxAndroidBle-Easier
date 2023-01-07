@@ -81,7 +81,7 @@ public class BLEConnRX{
                                                 connectionState -> {
                                                     if (connectionState == RxBleConnection.RxBleConnectionState.DISCONNECTED) {
                                                         //BLE device disconnected - start scanning again
-                                                        if(wait == false){ //Without this bug will happens, it will call too much parallel startScanAndConnect() and that's but because uses a lot of battery.
+                                                        if(wait == false){ //Without this, bug will happens, it will call too much parallel startScanAndConnect() and that's bad because uses a lot of battery.
                                                             Log.i("bleee", "no conn, so starting scan again");
                                                             startScanAndConnect();
                                                             isconn = false;
