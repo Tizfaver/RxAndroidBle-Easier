@@ -1,4 +1,4 @@
-//by @tiz_faver
+//by @tizfaver
 package com.example.ard_os;
 
 import android.annotation.SuppressLint;
