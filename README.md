@@ -8,13 +8,13 @@ I was working for a my project that works with the BLE. So I started surfing the
 ## Gettings started
 As I said this file is based on the library in question, so follow the instruction provided by the doc for the installation of the **RxJava 2** version.
 
-###Gradle
+### Gradle
 If you use Gradle to build your project — as a Gradle project implementation dependency:
 ```
 implementation "com.polidea.rxandroidble2:rxandroidble:1.17.2"
 ```
 
-###Maven
+### Maven
 If you use Maven to build your project — as a Maven project dependency:
 ```
 <dependency>
