@@ -79,7 +79,7 @@ The actual functions:
 - Disconnecting from the BLE device:
 `rx.disconnect();`
 
-##TODO
+## TODO
 - Add constructor to connect to the BLE device via their name.
 - Add a reconnect system that user can choose if enable or disable.
 - Check if isConnected() function is working correctly.
