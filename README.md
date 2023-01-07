@@ -25,6 +25,8 @@ If you use Maven to build your project — as a Maven project dependency:
 </dependency>
 ```
 
+Now only you have to download this file and add it into your project near the other Classes.
+
 ## Permissions
 These are the basic permissions you need, to scan and connect to the BLE device with this class:
 - `ACCESS_FINE_LOCATION`
